@@ -51,7 +51,112 @@ The output should be similar to the following, showing that the service is activ
 
 Is your docker running?<br>
 sudo docker run hello-world
-output:docker 
+output:docker <br>
+/*image section*/<br>
+For more Information : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+
+https://www.hostinger.com/tutorials/how-to-install-docker-on-ubuntu updades version<br>
+
+Reboot
+
+<b>Clone Kobotoolbox script:</b>
+git clone https://github.com/kobotoolbox/kobo-install
+
+<b> Change to root</b> 
+  <p>Changing to root use the following command</p>
+  sudo su
+
+<h3><b>Install Python</b></h3>
+sudo apt install python
+
+<b>Change directory to kobo install</b>
+cd kobo-install/
+
+<b> Execute</b>
+run.py:  root@ip-172-31-40-195:/home/ubuntu/kobo-install# python run.py
+
+<h5>Answer the following questions</h5>
+NB: The option is to select one for yes or two for no, for the place where i did not specify either yes or  no it means i leave the default selected answer in bracket 
+
+Where do you want to install? 
+[/home/ubuntu/kobo-docker]: (default, press enter)
+Please confirm path [/home/ubuntu/kobo-docker]
+    1) Yes
+    2) No
+[1]: (default, press enter)
+Do you want to see advanced options?
+    1) Yes
+    2) No
+[2]: 1
+What kind of installation do you need?
+    1) On your workstation
+    2) On a server
+[2]: (default, press enter)
+Do you want to use separate servers for frontend and backend?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Public domain name [kobo.local]: (your domain name)
+KPI sub domain [kf]: (default, press enter)
+KoBoCat sub domain [kc]: (default, press enter)
+Enketo Express sub domain name [ee]: (default, press enter)
+Do you use a reverse proxy or a load balancer?
+    1) Yes
+    2) No
+[1]: 2
+SMTP server: (default, press enter)
+SMTP port [25]: (default, press enter)
+SMTP user: 
+From email address [support@nipefagio.org]: (Your Email)
+Super user's username [super_admin]: (name)
+Super user's password [TLY^lWX^E~Pzf3X]: (password)
+Docker Compose prefix? (leave empty for default): (default, press enter)
+Staging mode?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Postgres database [kobotoolbox]: (default, press enter)
+Postgres user [kobo]: (default, press enter)
+Postgres password [F46j7HAqb%0Y!%]: (default, press enter)
+Do you want to tweak PostgreSQL settings?
+    1) Yes
+    2) No
+[2]: 1
+Total Memory in GB?
+[8]: 4
+Number of connections?
+[100]: (default, press enter)
+Do you want to customize service ports?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Do you want to use AWS S3 storage?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Google Analytics Identifier: (default, press enter)
+Google API Key: (default, press enter)
+Intercom App ID: (default, press enter)
+Do you want to use Sentry?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Do you want to tweak uWSGI settings?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+Do you want to activate backups?
+    1) Yes
+    2) No
+[2]: (default, press enter)
+
+NB: You can go for other options on the questions as long as you know what you are doing, 
+
+
+18. Then you will get this message
+
+
+
 
 
 
