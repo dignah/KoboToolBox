@@ -174,7 +174,7 @@ You need to add HTTP/HTTPS to the firewall rules.</p>
   </ul>
 ‘sudo ufw allow 443’.
 
-Updated version
+<b>Updated version</b>
 
 Docker-composer - install https://docs.docker.com/compose/install/
 
