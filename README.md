@@ -25,8 +25,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 <b>Then add the GPG key for the official Docker repository to your system:</b>
 
-
-
  <b>Add the Docker repository to APT sources:</b><br>
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 
@@ -36,7 +34,9 @@ sudo apt upgrade
 
 *Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
 apt-cache policy docker-ce*<br>
-//image section
+//image section<br>
+*Notice that docker-ce is not installed, but the candidate for installation is from the Docker repository for Ubuntu 18.04 (bionic)</b>.
+*
 
 
 
