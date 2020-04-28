@@ -5,13 +5,43 @@
   <p>sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose</p>
   https://docs.docker.com/compose/install/  update version<br>
   //image section
-  <h2><b>Change the access permissions of of docker composer to be executable</b></h2>
+  
+  <h4><b>Change the access permissions of of docker composer to be executable</b></h4>
 sudo chmod +x /usr/local/bin/docker-compose
-<h2><b>Verify installation</b></h2>
+
+<h4><b>Verify installation</b></h4>
 docker-compose --version
 
-Sudo apt update
+Sudo apt update<br>
+sudo apt upgrade<br>
+//Image Section
+For more information for the first three procedure : https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04
+
+<h4><b>Install a few prerequisite packages which let apt use packages over HTTPS:</b></h4>
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+<b>Then add the GPG key for the official Docker repository to your system</b>
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+<b>Then add the GPG key for the official Docker repository to your system:</b>
+
+
+
+ <b>Add the Docker repository to APT sources:</b>
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
+<b>update the package database with the Docker packages from the newly added repo:</b>    
+sudo apt update
 sudo apt upgrade
+
+
+
+
+
+*Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+apt-cache policy docker-ce*
+
+
 
 
 
