@@ -36,7 +36,7 @@ sudo apt upgrade
 apt-cache policy docker-ce*<br>
 //image section<br>
 *<b>Notice that docker-ce is not installed, but the candidate for installation is from the Docker repository for Ubuntu 18.04 (bionic)</b>.*
-<b>Finally, install Docker:<b>
+<b>Finally, install Docker:</b>
 sudo apt install docker-ce
 
 <p>Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it's running:
