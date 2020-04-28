@@ -76,14 +76,14 @@ cd kobo-install/
 run.py:  root@ip-172-31-40-195:/home/ubuntu/kobo-install# python run.py
 
 <h5>Answer the following questions</h5>
-NB: The option is to select one for yes or two for no, for the place where i did not specify either yes or  no it means i leave the default selected answer in bracket 
+NB: The option is to select one for yes or two for no, for the place where i did not specify either yes or  no it means i leave the default selected answer in bracket<br> 
 
-Where do you want to install? 
-[/home/ubuntu/kobo-docker]: (default, press enter)
+Where do you want to install? <br>
+[/home/ubuntu/kobo-docker]: (default, press enter)<br>
 Please confirm path [/home/ubuntu/kobo-docker]
     1) Yes
     2) No
-[1]: (default, press enter)
+[1]: (default, press enter)<br>
 Do you want to see advanced options?
     1) Yes
     2) No
