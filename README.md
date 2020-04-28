@@ -20,7 +20,7 @@ For more information for the first three procedure : https://www.digitalocean.co
 <h4><b>Install a few prerequisite packages which let apt use packages over HTTPS:</b></h4>
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 
-<b>Then add the GPG key for the official Docker repository to your system</b>
+<b>Then add the GPG key for the official Docker repository to your system</b><br>
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 <b>Then add the GPG key for the official Docker repository to your system:</b>
@@ -39,7 +39,8 @@ sudo apt upgrade
 
 
 *Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
-apt-cache policy docker-ce*
+apt-cache policy docker-ce*<br>
+//image section
 
 
 
