@@ -155,6 +155,30 @@ NB: You can go for other options on the questions as long as you know what you a
 
 18. Then you will get this message<br>
 //image section<br>
+<p>
+To check dns try these curl commands:
+curl -I https://public.domain/service_health/<br>
+curl -I http://public.domain/service_health/</p>
+
+
+https://www.digitalocean.com/community/questions/port-80-failed-connection-refused 
+Despite ufw or any other firewall rules on the Linux system. There are Firewalls rules in the DigitalOcean “Networking” panel. By default, there’s no 80 rule.
+You need to add HTTP/HTTPS to the firewall rules.
+On DigitalOcean Control Panel page,
+Open “Droplets”, select the droplet used
+Go to “Networking” and check “Firewalls”, make sure there’s a rule: HTTP, TCP, 80, All IPv4 | All IPv6
+If not, click the firewall group icon (the blue one above)
+Under “Inbound Rules”
+Add “New rule” and select HTTP (and HTTPS if needed)
+Save and the 80 port should be accessible.
+‘sudo ufw allow 443’.
+
+Updated version
+
+Docker-composer - install https://docs.docker.com/compose/install/
+
+Docker engine install - https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository 
+
 
 
 
