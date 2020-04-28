@@ -172,7 +172,7 @@ You need to add HTTP/HTTPS to the firewall rules.</p>
   <li>Add “New rule” and select HTTP (and HTTPS if needed)</li>
   <li>Save and the 80 port should be accessible.</li><br>
   </ul>
-‘sudo ufw allow 443’.
+<p>‘sudo ufw allow 443’.</p>
 
 <b>Updated version</b>
 
