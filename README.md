@@ -76,84 +76,85 @@ cd kobo-install/
 run.py:  root@ip-172-31-40-195:/home/ubuntu/kobo-install# python run.py
 
 <h5>Answer the following questions</h5>
-NB: The option is to select one for yes or two for no, for the place where i did not specify either yes or  no it means i leave the default selected answer in bracket<br> 
+<p>NB: The option is to select one for yes or two for no, for the place where i did not specify either yes or  no it means i leave the default selected answer in bracket</p><br> 
 
 Where do you want to install? <br>
 [/home/ubuntu/kobo-docker]: (default, press enter)<br>
-Please confirm path [/home/ubuntu/kobo-docker]
-    1) Yes
-    2) No
+Please confirm path [/home/ubuntu/kobo-docker]<br>
+    1) Yes<br>
+    2) No<br>
 [1]: (default, press enter)<br>
-Do you want to see advanced options?
-    1) Yes
-    2) No
-[2]: 1
-What kind of installation do you need?
-    1) On your workstation
-    2) On a server
-[2]: (default, press enter)
-Do you want to use separate servers for frontend and backend?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Public domain name [kobo.local]: (your domain name)
-KPI sub domain [kf]: (default, press enter)
-KoBoCat sub domain [kc]: (default, press enter)
-Enketo Express sub domain name [ee]: (default, press enter)
-Do you use a reverse proxy or a load balancer?
-    1) Yes
-    2) No
-[1]: 2
-SMTP server: (default, press enter)
-SMTP port [25]: (default, press enter)
-SMTP user: 
-From email address [support@nipefagio.org]: (Your Email)
-Super user's username [super_admin]: (name)
-Super user's password [TLY^lWX^E~Pzf3X]: (password)
-Docker Compose prefix? (leave empty for default): (default, press enter)
-Staging mode?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Postgres database [kobotoolbox]: (default, press enter)
-Postgres user [kobo]: (default, press enter)
-Postgres password [F46j7HAqb%0Y!%]: (default, press enter)
-Do you want to tweak PostgreSQL settings?
-    1) Yes
-    2) No
-[2]: 1
-Total Memory in GB?
-[8]: 4
-Number of connections?
-[100]: (default, press enter)
-Do you want to customize service ports?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Do you want to use AWS S3 storage?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Google Analytics Identifier: (default, press enter)
-Google API Key: (default, press enter)
-Intercom App ID: (default, press enter)
-Do you want to use Sentry?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Do you want to tweak uWSGI settings?
-    1) Yes
-    2) No
-[2]: (default, press enter)
-Do you want to activate backups?
-    1) Yes
-    2) No
-[2]: (default, press enter)
+Do you want to see advanced options?]<br>
+    1) Yes<br>
+    2) No<br>
+[2]: 1<br>
+What kind of installation do you need?<br>
+    1) On your workstation<br>
+    2) On a server<br>
+[2]: (default, press enter)<br>
+Do you want to use separate servers for frontend and backend?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Public domain name [kobo.local]: (your domain name)<br>
+KPI sub domain [kf]: (default, press enter)<br>
+KoBoCat sub domain [kc]: (default, press enter)<br>
+Enketo Express sub domain name [ee]: (default, press enter)<br>
+Do you use a reverse proxy or a load balancer?<br>
+    1) Yes<br>
+    2) No<br>
+[1]: 2<br>
+SMTP server: (default, press enter)<br>
+SMTP port [25]: (default, press enter)<br>
+SMTP user: <br>
+From email address [support@nipefagio.org]: (Your Email)<br>
+Super user's username [super_admin]: (name)<br>
+Super user's password [TLY^lWX^E~Pzf3X]: (password)<br>
+Docker Compose prefix? (leave empty for default): (default, press enter)<br>
+Staging mode?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Postgres database [kobotoolbox]: (default, press enter)<br>
+Postgres user [kobo]: (default, press enter)<br>
+Postgres password [F46j7HAqb%0Y!%]: (default, press enter)<br>
+Do you want to tweak PostgreSQL settings?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: 1<br>
+Total Memory in GB?<br>
+[8]: 4<br>
+Number of connections?<br>
+[100]: (default, press enter)<br>
+Do you want to customize service ports?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Do you want to use AWS S3 storage?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Google Analytics Identifier: (default, press enter)<br>
+Google API Key: (default, press enter)<br>
+Intercom App ID: (default, press enter)<br>
+Do you want to use Sentry?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Do you want to tweak uWSGI settings?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
+Do you want to activate backups?<br>
+    1) Yes<br>
+    2) No<br>
+[2]: (default, press enter)<br>
 
-NB: You can go for other options on the questions as long as you know what you are doing, 
+NB: You can go for other options on the questions as long as you know what you are doing,<br> 
 
 
-18. Then you will get this message
+18. Then you will get this message<br>
+//image section<br>
 
 
 
