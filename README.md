@@ -69,7 +69,7 @@ git clone https://github.com/kobotoolbox/kobo-install
 <h3><b>Install Python</b></h3>
 sudo apt install python
 
-<b>Change directory to kobo install</b>
+<b>Change directory to kobo install</b><br>
 cd kobo-install/
 
 <b> Execute</b>
