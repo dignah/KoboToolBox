@@ -66,7 +66,7 @@ git clone https://github.com/kobotoolbox/kobo-install
   <p>Changing to root use the following command</p>
   sudo su
 
-<h3><b>Install Python</b></h3>
+<h3><b>Install Python</b></h3><br>
 sudo apt install python
 
 <b>Change directory to kobo install</b>
