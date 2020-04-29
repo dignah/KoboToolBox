@@ -1,4 +1,4 @@
-# KoboToolBox
+# Dealing with KoboToolBox 
 <b><h3>Installing Docker</h3></b>
   a.sudo apt update<br>
   b.sudo apt upgrade
