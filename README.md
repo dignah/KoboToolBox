@@ -6,7 +6,7 @@
   https://docs.docker.com/compose/install/  update version<br>
   //image section
   
-  <h4><b>Change the access permissions of of docker composer to be executable</b></h4>
+  <h4><b>Change the access permissions of docker composer to be executable</b></h4>
 sudo chmod +x /usr/local/bin/docker-compose
 
 <h4><b>Verify installation</b></h4>
