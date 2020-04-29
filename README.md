@@ -153,7 +153,7 @@ Do you want to activate backups?<br>
 NB: You can go for other options on the questions as long as you know what you are doing,<br> 
 
 
-18. Then you will get this message<br>
+Then you will get this message<br>
 //image section<br>
 <p>
 To check dns try these curl commands:<br>
